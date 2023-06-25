@@ -4,7 +4,7 @@ Le jeu du morpion se joue normalement sur papier sur une grille de 3x3 carreaux.
 Deux joueurs placent chacun leur tour leur symbole (X ou O) sur une des cases libres de la grille.
 Dès qu'un des deux joueurs arrive à aligner trois de ses symboles sur une ligne, une colonne, ou une diagonale, il a gagné la partie. Si la grille est remplie est que personne n'a gagné, c'est un match nul.
 
-[!image001.png]
+![exemple](image001.png)
 
 Règles du jeu
 
@@ -68,7 +68,7 @@ A partir de ce qui a été implémenté précédement, nous allons maintenant co
 
 Le MinMax consiste a essayer les différentes possibilité de coup suivants et d'en choisir un en fonction de ce que l'on souhaite (appeler score). Donc l'algorithmen va simuler toutes les possibilité et choisir celle qui lui permet de gagner.
 
-[!image003.png]
+![minmax]image003.png)
 
 Implémentation:
 
