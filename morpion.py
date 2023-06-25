@@ -46,6 +46,7 @@ def mvmts_possibles(plateau):
                 Mvmt.append(plateau[i][j])
     return Mvmt
 
+
 def MinMax(plateau,joueur):
     if partie_finie(plateau)==joueur :
         return score(plateau,joueur)
