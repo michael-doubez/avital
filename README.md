@@ -68,7 +68,7 @@ A partir de ce qui a été implémenté précédement, nous allons maintenant co
 
 Le MinMax consiste a essayer les différentes possibilité de coup suivants et d'en choisir un en fonction de ce que l'on souhaite (appeler score). Donc l'algorithmen va simuler toutes les possibilité et choisir celle qui lui permet de gagner.
 
-![minmax]image003.png)
+![minmax](image003.png)
 
 Implémentation:
 
