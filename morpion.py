@@ -55,3 +55,23 @@ def MinMax(plateau,joueur):
             plateau2=plateau[:]
             return MinMax(plateau2, joueur) 
         
+def main():
+    """logique du jeux"""
+    plateau = nouveau_plateau()
+
+    gagnant = None
+    joueur = 0
+    while gagnant is None:
+       afficher(plateau)
+
+       mouvement_valide = False
+       while not mouvement_valid:
+           ligne, colonne = demander_mouvement()
+           mouvement_valid = jouer_mouvement(plateau, joueur, ligne, colonne)
+
+       gagnant = partie_finie(plateau)
+
+    print("La partie est terminée et",gagnant,"a gagné")  
+
+if __name__ == '__main__':
+    main()
